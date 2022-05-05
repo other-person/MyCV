@@ -1,5 +1,9 @@
 .footer {
+    height: 150px;
     background-color: #949f4e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .title {
     background-color: #c29898;

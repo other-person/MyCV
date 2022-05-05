@@ -1,6 +1,9 @@
 .myProjects {
     min-height: 100vh;
     background-color: #519bd3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .title {

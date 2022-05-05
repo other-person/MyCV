@@ -7,34 +7,19 @@
 
 .navigation a {
     text-decoration: none;
+}
 
-}
-@media (max-width: 490px) {
+
+@media (max-width: 485px) {
     .navigation {
-    display: block;
-        /*justify-content:space-between;*/
-        margin: 0 auto;
-    }
-    .navigation a {
-        margin-left: 20px;
-    }
-    .navigation a:first-child {
-        margin-left: 0;
-    }
-}
-@media (max-width: 360px) {
-    .navigation {
-        justify-content:flex-end;
+        justify-content:space-between;
         width: 100%;
 
     }
     .navigation a {
-        margin-left: 8px;
-
+        margin-left: 23px;
     }
     .navigation a:first-child {
         margin-left: 0;
     }
-
-
 }
