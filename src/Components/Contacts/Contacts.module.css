@@ -1,0 +1,23 @@
+.contacts {
+    min-height: 100vh;
+    background-color: #7e5454;
+}
+
+.wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper input, textarea {
+    width: 100%;
+}
+
+.button {
+    margin-top: 50px;
+}
+
+.title {
+    background-color: #2d7575;
+}

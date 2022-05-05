@@ -1,0 +1,19 @@
+.item {
+    width: 300px;
+    border: 1px solid #de1111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgContainer {
+    width: 100%;
+    height: 300px;
+    background-color: fuchsia;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+.description {
+    text-align: center;
+}

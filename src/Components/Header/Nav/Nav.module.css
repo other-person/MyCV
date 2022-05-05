@@ -1,0 +1,40 @@
+.navigation {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px red solid;
+}
+
+.navigation a {
+    text-decoration: none;
+
+}
+@media (max-width: 490px) {
+    .navigation {
+    display: block;
+        /*justify-content:space-between;*/
+        margin: 0 auto;
+    }
+    .navigation a {
+        margin-left: 20px;
+    }
+    .navigation a:first-child {
+        margin-left: 0;
+    }
+}
+@media (max-width: 360px) {
+    .navigation {
+        justify-content:flex-end;
+        width: 100%;
+
+    }
+    .navigation a {
+        margin-left: 8px;
+
+    }
+    .navigation a:first-child {
+        margin-left: 0;
+    }
+
+
+}

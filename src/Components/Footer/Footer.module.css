@@ -1,0 +1,23 @@
+.footer {
+    background-color: #949f4e;
+}
+.title {
+    background-color: #c29898;
+}
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px red solid;
+}
+
+.social {
+    border: 1px red solid;
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
