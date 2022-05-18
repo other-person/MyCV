@@ -2,13 +2,14 @@ import React from 'react';
 import s from "./MyProjects.module.css"
 import {MyProjectItem} from "./MyProject/MyProject";
 import sContainer from "../../common/styles/Container.module.css"
+import {Title} from "../Title/Title";
 
 export const MyProjects = () => {
     return (
         <div className={s.myProjects}>
             <div className={sContainer.container + " " + sContainer.myProjectContainer}>
 
-                <h2 className={s.title}>My projects</h2>
+                <Title text={"My projects"}/>
 
                 <div className={s.wrapper}>
                     <MyProjectItem title={"Name project 1"}

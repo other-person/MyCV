@@ -3,7 +3,7 @@ import s from "./Nav.module.css"
 
  export const Nav = () => {
     return (
-        <div>
+        <div className={s.wrapper}>
             <nav className={s.navigation}>
                 <a href="#">Main</a>
                 <a href="#">Skills</a>

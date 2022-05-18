@@ -1,9 +1,9 @@
 .contacts {
-    min-height: 100vh;
-    background-color: #7e5454;
+    background-color: #111;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .wrapper {
@@ -15,12 +15,13 @@
 
 .wrapper input, textarea {
     width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgb(0 0 0 );
 }
 
 .button {
     margin-top: 50px;
 }
 
-.title {
-    background-color: #2d7575;
-}
+
+

@@ -1,19 +1,22 @@
 import React from 'react';
 import s from "./Footer.module.css"
 import {Item} from "../Contacts/Item/Item";
+import {Title} from "../Title/Title";
 
 export const Footer = () => {
     return (
         <div className={s.footer}>
             <div className={s.wrapper}>
-                <h3 className={s.title}> Bazhenka Taras</h3>
+
+                <Title text={"Bazhenka Taras"}/>
+
                 <div className={s.social}>
                     <Item/>
                     <Item/>
                     <Item/>
                     <Item/>
                 </div>
-                <span className={s.text}></span>
+                {/*<span className={s.text}></span>*/}
             </div>
 
         </div>

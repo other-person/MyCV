@@ -1,18 +1,23 @@
 .main {
-    min-height: 100vh;
-    background-color: #7ac268;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .text {
     padding: 20px 0;
     max-width: 450px;
-    border: 1px red solid;
-    background-color: #7c3e3e;
     margin: 20px 0;
+}
 
+.text span {
+    color: #ff651c;
+    font-size: 24px;
+    margin-left: 30px;
+}
+.text h1 {
+    color: white;
 }
 
 .myPhoto {
@@ -20,5 +25,7 @@
     height: 300px;
     background-color: aliceblue;
     margin: 20px 0;
-
+    box-shadow: 0 0 35px 0 #ff651c;
+    border-radius: 50%;
 }
+

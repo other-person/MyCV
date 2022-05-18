@@ -8,8 +8,9 @@ export const Header = () => {
             <div className={s.wrapper}>
                 <Nav/>
             </div>
-
         </div>
     );
 };
+
+
 
