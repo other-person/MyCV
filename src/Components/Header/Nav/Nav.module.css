@@ -1,4 +1,5 @@
 .navigation {
+    /*width: 350px;*/
     display: flex;
     justify-content: space-between;
 }
@@ -6,13 +7,13 @@
 .navigation a {
     text-decoration: none;
     font-size: 18px;
+    font-weight: 800;
     margin-left: 23px;
 }
 
 .navigation a:first-child {
     border-bottom: 2px solid #ff651c;
 }
-
 
 .navigation a:first-child {
     margin-left: 0;

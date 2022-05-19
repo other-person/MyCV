@@ -1,13 +1,38 @@
 .item {
-    width: 300px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(204,204,204,.1);
     border-radius: 10px;
-    padding-bottom: 20px;
-    box-shadow: 0 0 25px rgb(0 0 0 );
+    padding: 15px 15px;
+    box-shadow: 0 0 25px rgb(0 0 0);
 }
+.buttonProject {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ff651c;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+
+.buttonProject:hover {
+    box-shadow:  0 0 40px #ff651c;
+    transition: .2s;
+}
+
+.text {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .imgContainer {
     width: 100%;
     height: 300px;
@@ -16,7 +41,22 @@
     align-items: center;
     justify-content: center;
     border-radius: 15px;
- }
+    background-size: cover;
+    background: no-repeat center center;
+    position: relative;
+}
+
+.imgContainer::before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    border-radius: 15px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+}
 
 .title {
     color: white;

@@ -5,11 +5,11 @@ import sContainer from "../../common/styles/Container.module.css"
 
 export const Main = () => {
     return (
-        <div className={s.main}>
+        <div className={s.main} id = "main">
             <div className={sContainer.container}>
                 <div className={s.text}>
                     <span>Hello!</span>
-                    <h1 >Im Taras Bazhenka</h1>
+                    <h1 className={s.myName} data-text = "Im Taras Bazhenka">Im Taras Bazhenka</h1>
                     <span>Im Front-end developer</span>
                 </div>
                 <div className={s.myPhoto}>

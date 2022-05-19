@@ -6,7 +6,7 @@ import {Title} from "../Title/Title";
 
 export const Skills = () => {
     return (
-        <div className={s.skills}>
+        <div className={s.skills} id="skills">
 
             <div className={sContainer.container + " " + sContainer.skillsContainer}>
 

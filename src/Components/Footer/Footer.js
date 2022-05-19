@@ -10,13 +10,13 @@ export const Footer = () => {
 
                 <Title text={"Bazhenka Taras"}/>
 
-                <div className={s.social}>
+                <div className={s.social} >
                     <Item/>
                     <Item/>
                     <Item/>
                     <Item/>
                 </div>
-                {/*<span className={s.text}></span>*/}
+
             </div>
 
         </div>

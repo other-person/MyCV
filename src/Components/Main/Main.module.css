@@ -16,8 +16,9 @@
     font-size: 24px;
     margin-left: 30px;
 }
-.text h1 {
+.myName {
     color: white;
+    font-size: 50px;
 }
 
 .myPhoto {

@@ -1,5 +1,5 @@
-.container{
-    width: 80%;
+.container {
+    width: 82%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -14,14 +14,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-
-
 }
+
 .myProjectContainer {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 }
+
 .contactsContainer {
     flex-direction: column;
     align-items: center;

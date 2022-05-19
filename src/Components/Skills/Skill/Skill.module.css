@@ -1,5 +1,5 @@
 .skill {
-    width: 400px;
+    width: 350px;
     background-color: rgba(204,204,204,.1);
     display: flex;
     flex-direction: column;
@@ -19,4 +19,7 @@
     color: white;
     font-size: 16px;
     text-align: center;
+}
+.title {
+    color: white;
 }

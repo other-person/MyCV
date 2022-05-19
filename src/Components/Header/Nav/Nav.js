@@ -5,12 +5,11 @@ import s from "./Nav.module.css"
     return (
         <div className={s.wrapper}>
             <nav className={s.navigation}>
-                <a href="#">Main</a>
-                <a href="#">Skills</a>
-                <a href="#">Projects</a>
-                <a href="#">Contacts</a>
+                <a href="#main">Main</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contacts">Contacts</a>
             </nav>
         </div>
     );
 };
-
