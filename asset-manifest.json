@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/MyCV/static/css/main.ec1349fe.css",
-    "main.js": "/MyCV/static/js/main.49efe22f.js",
+    "main.css": "/MyCV/static/css/main.b331d69e.css",
+    "main.js": "/MyCV/static/js/main.1fdfa6a0.js",
     "static/js/787.e8871c4f.chunk.js": "/MyCV/static/js/787.e8871c4f.chunk.js",
+    "static/media/gears.jpg": "/MyCV/static/media/gears.c68402f4273a9bc69db5.jpg",
+    "static/media/socialNetwork.jpg": "/MyCV/static/media/socialNetwork.33241fb76043cfcdaf0d.jpg",
+    "static/media/calculator.jpg": "/MyCV/static/media/calculator.1b1efb4120bf702c5ec3.jpg",
+    "static/media/todolist.png": "/MyCV/static/media/todolist.26146ae7de832f1e30a3.png",
     "index.html": "/MyCV/index.html",
-    "main.ec1349fe.css.map": "/MyCV/static/css/main.ec1349fe.css.map",
-    "main.49efe22f.js.map": "/MyCV/static/js/main.49efe22f.js.map",
+    "main.b331d69e.css.map": "/MyCV/static/css/main.b331d69e.css.map",
+    "main.1fdfa6a0.js.map": "/MyCV/static/js/main.1fdfa6a0.js.map",
     "787.e8871c4f.chunk.js.map": "/MyCV/static/js/787.e8871c4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec1349fe.css",
-    "static/js/main.49efe22f.js"
+    "static/css/main.b331d69e.css",
+    "static/js/main.1fdfa6a0.js"
   ]
 }
