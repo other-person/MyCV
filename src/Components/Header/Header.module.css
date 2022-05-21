@@ -31,3 +31,9 @@
     }
 }
 
+@media (max-width: 550px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+

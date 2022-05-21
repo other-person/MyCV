@@ -1,5 +1,42 @@
-.item {
-    width: 35px;
-    height: 35px;
-    background-color: #528888;
+.itemData {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-content: baseline;
+    background-color: #212121;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgb(0 0 0);
+    padding: 20px 20px;
 }
+
+.iconData {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.wrapperDesc {
+    margin-left: 20px;
+}
+.titleDesc {
+    color: white;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.description {
+    font-size: 16px;
+    color: #888888;
+}
+
+@media (max-width: 951px) {
+    .itemData {
+        width: 100%;
+        margin: 0 15px;
+    }
+}
+

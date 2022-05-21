@@ -1,5 +1,4 @@
 .navigation {
-    /*width: 350px;*/
     display: flex;
     justify-content: space-between;
 }
@@ -9,10 +8,12 @@
     font-size: 18px;
     font-weight: 800;
     margin-left: 23px;
+    padding: 2px 4px;
 }
 
 .navigation a:first-child {
     border-bottom: 2px solid #ff651c;
+    cursor: pointer;
 }
 
 .navigation a:first-child {
@@ -21,7 +22,6 @@
 
 @media (max-width: 775px) {
     .wrapper {
-
         margin: 0 auto;
     }
 }

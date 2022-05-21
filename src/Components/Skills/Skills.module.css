@@ -4,16 +4,15 @@
     flex-direction: column;
     justify-content: center;
     padding-bottom: 20px;
-
 }
 
 .wrapper {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .title {

@@ -24,6 +24,7 @@
 .buttonProject:hover {
     box-shadow:  0 0 40px #ff651c;
     transition: .2s;
+    cursor: pointer;
 }
 
 .text {

@@ -24,3 +24,29 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+.buttonComeBack {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border :3px solid #ff651c;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.textUp {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.buttonComeBack:hover {
+    cursor: pointer;
+    transition: .3s;
+    box-shadow:  0 0 40px #ff651c;
+}
+
+@media (max-width: 550px) {
+    .wrapper {
+        width: 100%;
+    }
+}
