@@ -2,12 +2,15 @@ import React from 'react';
 import s from "./Item.module.css"
 
 
+
 export const ItemData = (props) => {
     return (
         <div className={s.itemData}>
 
             <div className={s.iconData}>
-                    {props.icon}
+
+                <img src={props.icon} alt="Icon"/>
+
             </div>
 
             <div className={s.wrapperDesc}>

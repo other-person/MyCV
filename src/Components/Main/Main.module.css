@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 20px;
+
 }
 
 .text {
@@ -16,18 +17,20 @@
     font-size: 24px;
     margin-left: 30px;
 }
+
 .myName {
     color: white;
     font-size: 50px;
 }
 
 .myPhoto {
-    width: 300px;
-    height: 300px;
-    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
     margin: 20px 0;
-    box-shadow: 0 0 35px 0 #ff651c;
+    box-shadow: 0 0 25px 0 #ff651c;
     border-radius: 50%;
+    border: 1px solid #ff651c;
+    background: no-repeat center ;
 }
 
 @media (max-width: 414px) {
