@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+import './App.sass';
 import {Header} from "./Components/Header/Header";
 import {Main} from "./Components/Main/Main";
 import {Skills} from "./Components/Skills/Skills";
@@ -14,8 +14,8 @@ function App() {
             <Main/>
             <Skills/>
             <MyProjects/>
-            <Contacts/>
             <Footer/>
+            <Contacts/>
         </div>
     );
 }

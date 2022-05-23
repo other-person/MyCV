@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./Item.module.css"
+import s from "./Item.module.sass"
 
 
 

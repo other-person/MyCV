@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './MyProjectItem.module.css';
+import s from './MyProjectItem.module.sass';
 import buttonForProjects from './../../../Assets/Icons/IconButtons.png'
 
 export const MyProjectItem = (props) => {

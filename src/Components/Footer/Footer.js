@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./Footer.module.css"
+import s from "./Footer.module.sass"
 import {Title} from "../Title/Title";
 
 export const Footer = () => {
@@ -9,16 +9,7 @@ export const Footer = () => {
 
                 <Title text={"Bazhenka Taras"}/>
 
-                <div className={s.social}>
-                    {/*<Item/>*/}
-                    {/*<Item/>*/}
-                    {/*<Item/>*/}
-                    {/*<Item/>*/}
-                </div>
 
-                <a href="#home" className={s.buttonComeBack}>
-                    <div className={s.textUp}>UP</div>
-                </a>
             </div>
         </div>
 

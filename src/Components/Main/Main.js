@@ -1,11 +1,11 @@
 import React from 'react';
-import s from "./Main.module.css"
-import sContainer from "../../common/styles/Container.module.css"
+import s from "./Main.module.sass"
+import sContainer from "../../common/styles/Container.module.sass"
 import avatarImage from "./../../Assets/Avatarka/Avatarka.jpg"
 
 export const Main = () => {
 
-    const avatarka = {
+    const avatarImg = {
         backgroundImage: `url(${avatarImage})`
     };
 
@@ -17,7 +17,7 @@ export const Main = () => {
                     <h1 className={s.myName}>Im Taras Bazhenka</h1>
                     <span>Im Front-end developer</span>
                 </div>
-                <div style = {avatarka} className={s.myPhoto}>
+                <div style = {avatarImg} className={s.myPhoto}>
                 </div>
             </div>
         </div>
