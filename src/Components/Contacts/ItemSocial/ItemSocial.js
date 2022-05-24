@@ -29,20 +29,21 @@ export const ItemSocial = () => {
     return (
         <div className={s.wrapperSocial}>
 
-            <a href="https://www.facebook.com/ " target = "_blank">
-                <div style={facebookImg} className={s.itemSocialNetwork}></div>
+            <a style={facebookImg} className={s.itemSocialNetwork} href="https://www.facebook.com/ " target="_blank">
+
             </a>
-            <a href="https://www.instagram.com/" target = "_blank">
-                <div style={instagramImg} className={s.itemSocialNetwork}></div>
+            <a style={instagramImg} className={s.itemSocialNetwork} href="https://www.instagram.com/" target="_blank">
+
             </a>
-            <a href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit" target = "_blank">
-                <div style={linkedinImg} className={s.itemSocialNetwork}></div>
+            <a style={linkedinImg} className={s.itemSocialNetwork}
+               href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit" target="_blank">
+
             </a>
-            <a href="#" target = "_blank">
-                <div style={skypeImg} className={s.itemSocialNetwork}></div>
+            <a style={skypeImg} className={s.itemSocialNetwork} href="#" target="_blank">
+
             </a>
-            <a href="https://vk.com/ " target = "_blank">
-                <div style={vkImg} className={s.itemSocialNetwork}></div>
+            <a style={vkImg} className={s.itemSocialNetwork} href="https://vk.com/ " target="_blank">
+
             </a>
 
         </div>

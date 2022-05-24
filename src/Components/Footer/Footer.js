@@ -1,17 +1,28 @@
-import React from 'react';
-import s from "./Footer.module.sass"
-import {Title} from "../Title/Title";
+import React from "react";
+import {FooterLinks} from './Links/linksForFooter'
+import sContainer from "../../common/styles/Container.module.sass";
+import {Title} from './../Title/Title'
+import s from './../Footer/Footer.module.sass'
+import ArrowUp from './../../Assets/IconButtonUp/up.png'
 
 export const Footer = () => {
+
+    const arrowUp = {
+        backgroundImage: `url(${ArrowUp})`
+    };
+
     return (
-        <div className={s.footer}>
-            <div className={s.wrapper}>
+        <div className={sContainer.container + " " + sContainer.footerContainer}>
 
-                <Title text={"Bazhenka Taras"}/>
+            <Title text={"Taras Bazhenka"}/>
 
+            <div><FooterLinks/></div>
 
-            </div>
+            <a  style = {arrowUp} href="#home" className={s.buttonComeBack}>
+                {/*<div className={s.textUp}></div>*/}
+            </a>
+
+            <div className={s.footerText}>&#169; 2022 Tarik&Co, All Rights Reserved.</div>
         </div>
-
-)};
-
+    )
+}

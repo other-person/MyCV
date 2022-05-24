@@ -1,15 +1,19 @@
 .itemData
-    width: 40%
+    min-width: 40%
+    height: 100px
     display: flex
     flex-direction: row
     align-content: baseline
     background-color: #212121
     border-radius: 15px
     box-shadow: 0 0 25px rgb(0 0 0)
-    padding: 20px 20px
+    padding: 10px 10px
     @media (max-width: 951px)
         width: 100%
         margin: 0 15px
+    @media (max-width: 550px)
+        margin-bottom: 5px
+
     .iconData
         width: 50px
         height: 50px

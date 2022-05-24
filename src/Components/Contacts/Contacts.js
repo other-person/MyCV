@@ -22,7 +22,7 @@ export const Contacts = () => {
 
                     <ItemData  icon={iconLocation} titleDescription={"My address"} description={" Botanicheskaya 7A, Minsk, Belarus "}/>
                     <ItemData  icon={iconSocial} titleDescription={"Social profiles"} description = {<ItemSocial/>}/>
-                    <ItemData  icon={iconeMail} titleDescription={"Email me"} description={" Gmail: bazhenkataras@gmail.com"}/>
+                    <ItemData  icon={iconeMail} titleDescription={"Email me"} description={" bazhenkataras@gmail.com"}/>
                     <ItemData  icon={iconCallme} titleDescription={"CallMe"} description={" +375298673579 "} />
 
                 </div>
@@ -35,9 +35,6 @@ export const Contacts = () => {
 
                 <button className={s.button}>Send</button>
 
-                <a href="#home" className={s.buttonComeBack}>
-                    <div className={s.textUp}>UP</div>
-                </a>
             </div>
         </div>
     );

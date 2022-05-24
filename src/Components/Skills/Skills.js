@@ -50,19 +50,26 @@ export const Skills = () => {
 
                 <Title text={"Skills"}/>
 
-                    <div className={s.wrapper}>
-                        <Skill style={html} title={"HTML5"} description = {"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores aut earum eum harum"}/>
-                        <Skill style={css} title={"CSS3"} description = {"inventore ipsam itaque, minus, nobis officia officiis perferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                        <Skill style={sass} title={"Sass"} description = {" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                        <Skill style={js} title={"JavaScript"} description = {" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                        <Skill style={react} title={"React"} description = {" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                        <Skill style={redux} title={"Redux"} description = {" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                        <Skill style={git} title={"Git"} description = {" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                        <Skill style={github} title={"GitHub"} description = {" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                        <Skill style={jira} title={"Jira"} description = {" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                    </div>
-
-
+                <div className={s.wrapper}>
+                    <Skill style={html} title={"HTML5"}
+                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores aut earum eum harum"}/>
+                    <Skill style={css} title={"CSS3"}
+                           description={"inventore ipsam itaque, minus, nobis officia officiis perferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
+                    <Skill style={sass} title={"Sass"}
+                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
+                    <Skill style={js} title={"JavaScript"}
+                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
+                    <Skill style={react} title={"React"}
+                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
+                    <Skill style={redux} title={"Redux"}
+                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
+                    <Skill style={git} title={"Git"}
+                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
+                    <Skill style={github} title={"GitHub"}
+                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
+                    <Skill style={jira} title={"Jira"}
+                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
+                </div>
 
             </div>
         </div>
