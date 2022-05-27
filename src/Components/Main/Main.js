@@ -5,9 +5,9 @@ import avatarImage from "./../../Assets/Avatarka/Avatarka.jpg"
 
 export const Main = () => {
 
-    const avatarImg = {
-        backgroundImage: `url(${avatarImage})`
-    };
+    // const avatarImg = {
+    //     backgroundImage: `url(${avatarImage})`
+    // };
 
     return (
         <div className={s.main} id="main">
@@ -26,7 +26,8 @@ export const Main = () => {
                             reprehenderit sint</p>
                     </div>
                 </div>
-                <div style={avatarImg} className={s.myPhoto}>
+                <div  className={s.myPhoto}>
+                    <img src={avatarImage} alt="avatarka" width ="100%" />
                 </div>
             </div>
         </div>
