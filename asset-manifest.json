@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyCV/static/css/main.090a09bd.css",
-    "main.js": "/MyCV/static/js/main.c4e591ce.js",
+    "main.css": "/MyCV/static/css/main.095bb7ea.css",
+    "main.js": "/MyCV/static/js/main.327b52fa.js",
     "static/js/787.e8871c4f.chunk.js": "/MyCV/static/js/787.e8871c4f.chunk.js",
     "static/media/gears.jpg": "/MyCV/static/media/gears.c68402f4273a9bc69db5.jpg",
     "static/media/Avatarka.jpg": "/MyCV/static/media/Avatarka.5dfa8ff73b0b52d49847.jpg",
@@ -9,12 +9,12 @@
     "static/media/calculator.jpg": "/MyCV/static/media/calculator.1b1efb4120bf702c5ec3.jpg",
     "static/media/todolist.png": "/MyCV/static/media/todolist.26146ae7de832f1e30a3.png",
     "index.html": "/MyCV/index.html",
-    "main.090a09bd.css.map": "/MyCV/static/css/main.090a09bd.css.map",
-    "main.c4e591ce.js.map": "/MyCV/static/js/main.c4e591ce.js.map",
+    "main.095bb7ea.css.map": "/MyCV/static/css/main.095bb7ea.css.map",
+    "main.327b52fa.js.map": "/MyCV/static/js/main.327b52fa.js.map",
     "787.e8871c4f.chunk.js.map": "/MyCV/static/js/787.e8871c4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.090a09bd.css",
-    "static/js/main.c4e591ce.js"
+    "static/css/main.095bb7ea.css",
+    "static/js/main.327b52fa.js"
   ]
 }
