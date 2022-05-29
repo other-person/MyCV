@@ -1,23 +1,29 @@
 .navigation
-    display: flex
+  display: flex
+  justify-content: space-between
+  @media (max-width: 485px)
     justify-content: space-between
-    @media (max-width: 485px)
-        justify-content: space-between
-        width: 100%
+    width: 100%
+
 .navigation a
-    text-decoration: none
-    font-size: 18px
-    font-weight: 800
-    margin-left: 23px
-    padding: 2px 4px
+  text-decoration: none
+  font-size: 18px
+  font-weight: 800
+  margin-left: 23px
+  padding: 2px 4px
+  cursor: pointer
+
 .navigation a:first-child
-    border-bottom: 2px solid #ff651c
-    cursor: pointer
-    margin-left: 0
+  margin-left: 0
+
+.navigation a:hover
+  transition: .3s
+  box-shadow: 0 2px 0 0 #ff651c
+  padding: 2px 4px
 
 @media (max-width: 775px)
-    .wrapper
-        margin: 0 auto
+  .wrapper
+    margin: 0 auto
 
 
 

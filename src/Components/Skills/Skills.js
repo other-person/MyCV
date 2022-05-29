@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Skills.module.sass'
 import sContainer from '../../common/styles/Container.module.sass'
-import {Skill} from './Skill/Skill';
+import {Skill, SkillLine} from './Skill/Skill';
 import {Title} from '../Title/Title';
 import htmlImage from './../../Assets/TechologyIcons/html.png'
 import cssImage from './../../Assets/TechologyIcons/css.png'
@@ -12,6 +12,7 @@ import reduxImage from './../../Assets/TechologyIcons/redux.png'
 import gitImage from './../../Assets/TechologyIcons/git.png'
 import githubImage from './../../Assets/TechologyIcons/github.png'
 import jiraImage from './../../Assets/TechologyIcons/jira.png'
+
 
 export const Skills = () => {
 
@@ -51,24 +52,15 @@ export const Skills = () => {
                 <Title text={"Skills"}/>
 
                 <div className={s.wrapper}>
-                    <Skill style={html} title={"HTML5"}
-                           description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores aut earum eum harum"}/>
-                    <Skill style={css} title={"CSS3"}
-                           description={"inventore ipsam itaque, minus, nobis officia officiis perferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                    <Skill style={sass} title={"Sass"}
-                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                    <Skill style={js} title={"JavaScript"}
-                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                    <Skill style={react} title={"React"}
-                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                    <Skill style={redux} title={"Redux"}
-                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                    <Skill style={git} title={"Git"}
-                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                    <Skill style={github} title={"GitHub"}
-                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
-                    <Skill style={jira} title={"Jira"}
-                           description={" inventore ipsam itaque, erferendis quaerat quidem quos, sequi tempore ut vitae. Ad?"}/>
+                    <Skill style={html} title={"HTML5"} width={{width: "90%"}}/>
+                    <Skill style={css} title={"CSS3"} width={{width: "75%"}}/>
+                    <Skill style={sass} title={"Sass"} width={{width: "75%"}}/>
+                    <Skill style={js} title={"JavaScript"} width={{width: "65%"}}/>
+                    <Skill style={react} title={"React"} width={{width: "75%"}}/>
+                    <Skill style={redux} title={"Redux"} width={{width: "75%"}}/>
+                    <Skill style={git} title={"Git"} width={{width: "75%"}}/>
+                    <Skill style={github} title={"GitHub"} width={{width: "80%"}}/>
+                    <Skill style={jira} title={"Jira"} width={{width: "85%"}}/>
                 </div>
 
             </div>

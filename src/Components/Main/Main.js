@@ -17,17 +17,16 @@ export const Main = () => {
                     <h1 className={s.myName}>Im Taras Bazhenka</h1>
                     <span>Im Front-end developer</span>
                     <div className={s.mainDescription}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias aspernatur assumenda
-                            atque autem cupiditate deserunt eaque,
-                            et fugit in minus, nostrum officiis optio perspiciatis quia quo recusandae reprehenderit
-                            sint. et fugit in minus, nostrum officiis
-                            optio perspiciatis quia quo recusandae reprehenderit sint et fugit in minus, nostrum
-                            officiis optio perspiciatis quia quo recusandae
-                            reprehenderit sint</p>
+                        <p>I am a result oriented frontend developer with experience in creating Landing Pages and SPA,
+                            using React(JS/TS), Redux, HTML & CSS.
+                            In spare time I solve katas on Codewars and Freecodecamps and boost my English. I am
+                            interested in graphic and web design, loft design.
+                            I would like to find a full-time job in a creative company with up-to-date task and
+                            collaborative team!</p>
                     </div>
                 </div>
-                <div  className={s.myPhoto}>
-                    <img src={avatarImage} alt="avatarka" width ="100%" />
+                <div className={s.myPhoto}>
+                    <img src={avatarImage} alt="avatarka" width="100%"/>
                 </div>
             </div>
         </div>

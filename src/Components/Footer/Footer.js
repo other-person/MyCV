@@ -19,7 +19,6 @@ export const Footer = () => {
             <div><FooterLinks/></div>
 
             <a  style = {arrowUp} href="#home" className={s.buttonComeBack}>
-                {/*<div className={s.textUp}></div>*/}
             </a>
 
             <div className={s.footerText}>&#169; 2022 Tarik&Co, All Rights Reserved.</div>
